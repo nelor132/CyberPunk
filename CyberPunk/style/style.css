@@ -22,7 +22,7 @@ body {
     background-position: center;
     background-size: cover;
     height: 1000px;
-    width: 1920px;
+    max-width: 100%;
 }
 
 .header {
@@ -126,7 +126,7 @@ body {
 .game-description__title {
     margin: 0;
     font-family: "Archangelsk";
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: 500;
     line-height: 1.05; 
     text-align: center; 
@@ -187,12 +187,12 @@ p.game-description__paragraph {
         gap: 3rem;
     }
     .game-description__title {
-        width: 620px;
-        height: 126px;
+        height: 40px;
+        width: auto;
         display: flex;
-        justify-content: start;
-        align-items: start;
-        font-size: 4rem;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
         text-align: start;
     }
     .game-description__text {
@@ -200,7 +200,8 @@ p.game-description__paragraph {
         flex-direction: column;
         align-items: start;
         text-align: start;
-        height: 340px;
+        height: 400px;
+        justify-content: space-around;
       }
     .game-description__paragraph {
         margin: 0;
@@ -230,6 +231,7 @@ p.game-description__paragraph {
 
 .global__image {
     margin-bottom: -10px;
+    width: 100%;
 }
 
 
@@ -243,7 +245,7 @@ p.game-description__paragraph {
 
 
 .contest {
-    width: 1920px;
+    width: 100%;
     min-height: 814px; 
     display: flex;
     justify-content: center;
@@ -404,6 +406,7 @@ input {
 
 .global__image2 {
     margin-bottom: -10px;
+    width: 100%;
 }
 
 
@@ -418,7 +421,7 @@ input {
 
 .hp-monitor {
     background-color: rgb(248, 242, 0);
-    width: 1920px;
+    width: 100%;
     height: 676px;
     display: flex;
     justify-content: center;
@@ -494,7 +497,7 @@ input {
 
 
 .buy-game {
-    width: 1920px;
+    width: 100%;
     height: 720px;
     display: flex;
     justify-content: start;
@@ -502,6 +505,7 @@ input {
 }
 
 .buy-game__content {
+    width: 100%;
     display: flex;
     justify-content: start;
     align-items: start;
@@ -509,7 +513,7 @@ input {
 
 .buy-game__text {
     background-color: black;
-    width: 976px;
+    width: 100%;
     height: 717px;
     display: flex;
     justify-content: center;
@@ -590,7 +594,7 @@ input {
 
 
 .footer {
-    width: 1920px;
+    width: 100%;
     height: 100px;
     display: flex;
     justify-content: center;
